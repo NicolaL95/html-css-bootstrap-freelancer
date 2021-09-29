@@ -1,0 +1,26 @@
+ /* HEADER */
+
+
+.bg_gy{
+    background-color: #2C3E50 ;
+}
+
+.font_header{
+    font-size: 0.45rem;
+}
+
+.font_icon{
+    font-size: 0.6rem;
+}
+
+.p_header_l{
+        padding-left: 5px;
+}
+
+.p_header_r{
+        padding-right: 5px;
+}
+
+.p_less{
+    padding-bottom: -10px;
+}
