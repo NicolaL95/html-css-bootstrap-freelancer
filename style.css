@@ -6,7 +6,7 @@
 }
 
 .font_header{
-    font-size: 0.45rem;
+    font-size: 0.5rem;
 }
 
 .font_icon{
@@ -33,9 +33,58 @@
 }
 
 .star_comp{
-    margin-top: -10px;
+    margin-top: -7px;
 }
 
 .jd_f{
     font-size: 0.4rem;
 }
+
+.border_c{
+    border-radius: 12%;
+        margin: 5px;
+        padding: 0 5px;
+}
+
+.text,.download{
+    font-size: 0.5rem;
+}
+
+.hr_more{
+    margin-top: 80px;
+}
+.icon_a{
+        right: 0;
+    transform: rotate(
+45deg);
+    top: -11px;
+}
+
+.m_5px{
+    margin-top: 10px;
+}
+
+
+.logo_p{
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.ws_3{
+    word-spacing: 3px;
+}
+
+/* FOOTER */
+.bg-bl{
+    background-color: #3A546D;
+}
+
+.bg-bd{
+    background-color: #2C3E50;
+}
+
+/* MEDIA QUERY */
+
+/* TABLET */
+
