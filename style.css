@@ -14,13 +14,28 @@
 }
 
 .p_header_l{
-        padding-left: 5px;
+        padding-left: 7px;
 }
 
 .p_header_r{
-        padding-right: 5px;
+        padding-right: 7px;
 }
 
 .p_less{
     padding-bottom: -10px;
+}
+
+
+/* MAIN */
+
+.bg_am{
+    background-color: #1ABC9C;
+}
+
+.star_comp{
+    margin-top: -10px;
+}
+
+.jd_f{
+    font-size: 0.4rem;
 }
