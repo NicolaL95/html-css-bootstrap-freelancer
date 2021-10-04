@@ -28,6 +28,15 @@
 
 /* MAIN */
 
+.bar{
+height: 5px;
+width: 10%;
+}
+
+.w_500{
+    width: 500px;
+}
+
 .bg_am{
     background-color: #1ABC9C;
 }
@@ -41,9 +50,8 @@
 }
 
 .border_c{
-    border-radius: 12%;
+    border-radius: 2%;
         margin: 5px;
-        padding: 0 5px;
 }
 
 .text,.download{
@@ -64,15 +72,35 @@
     margin-top: 10px;
 }
 
+.text_left{
+    text-align: left;
+}
+
+.p_button{
+    padding: 0px 5px;
+}
+
+.c_gray{
+    color: lightgray;
+}
 
 .logo_p{
-    padding: 5px;
-    height: 20px;
-    width: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
 }
 
 .ws_3{
     word-spacing: 3px;
+}
+
+
+.h_150px{
+    width: 70px;
+}
+
+.p_75s{
+    padding: 0 75px;
 }
 
 /* FOOTER */
@@ -86,5 +114,56 @@
 
 /* MEDIA QUERY */
 
-/* TABLET */
+@media screen and (min-width: 992px){
+
+.lg_size{
+    box-sizing: content-box;
+    margin: 0 10px;
+}
+
+.max_width{
+    width: 100%;
+}
+
+.m_right{
+    margin-right: 0px;
+}
+
+.m_left{
+    margin-left: 0px;
+}
+
+}
+
+
+
+@media screen and (max-width: 576px){
+.link_n_lg
+{
+    display: none;
+}
+}
+
+@media screen and (min-width: 576px){
+.link_n_lg
+{
+    display: inline;
+}
+
+.link_lg{
+    display: none;
+}
+
+.p_n{
+    padding: 0 35px;
+}
+}
+
+
+
+@media screen and (min-width: 992px){
+.p_75{
+    padding: 0px 75px;
+}
+}
 
